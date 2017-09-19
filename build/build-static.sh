@@ -12,6 +12,9 @@ pushd "$build_dir"
     curl -f -O http://d.etpan.org/mailcore2-deps/$name/$full_name.zip
     unzip $full_name.zip
 
+    rm -rf $base_dir/include
+    rm -rf $base_dir/libs
+
     mkdir -p $base_dir/include
     mkdir -p $base_dir/libs
 
