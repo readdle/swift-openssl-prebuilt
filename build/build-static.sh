@@ -20,6 +20,7 @@ pushd "$build_dir"
 
     cp -r $full_name/include/* $base_dir/include/
     cp -r $full_name/libs/armeabi-v7a $base_dir/libs/
+    cp -r $full_name/libs/arm64-v8a $base_dir/libs/
 
     rm -rf $full_name*
 popd
