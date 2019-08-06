@@ -1,6 +1,7 @@
 module OpenSSL [system] {
   header "openssl.h"
 
+  link "z"
   link "ssl"
   link "crypto"
 
